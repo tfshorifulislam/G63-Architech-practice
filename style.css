@@ -17,7 +17,7 @@
 }
 /* dark 01 */
 .text-dark-gray{
-
+  color: #131313;
 }
 /* dark 02 */
 .text-gray{
@@ -28,12 +28,22 @@
   color: #727272;
 }
 
+.btn-primary{
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+  background-color: #FF900E;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 24px;
+}
 
-/* header-style */
+
 
 /* navbar related style */
 .navbar{
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-item{
@@ -43,4 +53,39 @@
 .nav-link{
   text-decoration: none;
   font-weight:500;
+}
+
+.brand{
+  font-size: 2.81rem;
+  font-weight: 700;
+}
+
+.banner-content{
+  max-width: 53.125rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.banner-title{
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+.banner-description{
+  font-size: 1rem;
+  line-height: 1.625rem;
+  margin-bottom: 2rem;
+}
+
+.banner-image{
+  width: 100%;
+  
+}
+
+@media screen and (max-width:576px) {
+  .navbar,
+  .nav-links{
+    flex-direction: column;
+  }
 }
